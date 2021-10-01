@@ -1,0 +1,72 @@
+
+/*I went ahead and set all text to center alignment.*/
+*{
+    text-align: center;
+}
+
+/*I went ahead and used Coolers.co to find a color palette 
+I liked and applied it through the whole project. Then I 
+just applied some common fonts and fallback fonts as well 
+through the whole project.*/
+header{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #22333B;
+    color: #F2F4F3;
+}
+
+/*This one is a little more complex, but I used this block 
+to manipulate the image of me into a stylish oval.*/
+img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    /*The lines above just set the image in the middle,
+    while the lines below shape it into a rectangle and then 
+    round the edges until it becomes an oval.*/
+    height: 400px;
+    width: 300px;
+    border-radius: 50%
+}
+
+.intro, .about-me{
+    background-color: #A9927D;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    color: #0A0908
+}
+
+ul, ol{
+    list-style-position: inside;
+}
+
+/*Here I took the liberty of adding a horizontal 
+rule that I personally liked.*/
+hr{
+    width: 500px;
+    height: 50px;
+    border: none;
+    /*The lines above set the size of the ruler and take out the border.
+    The lines beneath spread out the margins allowing more of the png to be seen.
+    The last line just adds the png into the ruler itself.*/
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-image: url(image/horizontal-rule.png);
+}
+
+footer{
+    background-color: #5E503F;
+    color: white;
+}
+a{
+    font-size: 20px;
+}
+
+/*Ah yes, pseudo-classes.
+These lines just change the colors of the links based off of whether it has 
+been visited or not, and whether a cursor is hovering over it or it is being 
+actively clicked on.*/
+a:link {color:cyan}
+a:visited {color:violet}
+a:hover {color:red}
+a:active {color:white}
