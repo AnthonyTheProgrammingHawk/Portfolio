@@ -393,7 +393,7 @@ ul, ol{
 /*Here I took the liberty of adding a horizontal 
 rule that I personally liked.*/
 hr{
-    width: 500px;
+    max-width: 500px;
     height: 50px;
     border: none;
     /*The lines above set the size of the ruler and take out the border.
@@ -401,6 +401,9 @@ hr{
     The last line just adds the png into the ruler itself.*/
     margin-top: 20px;
     margin-bottom: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    backgrounnd-position: center;
     background-image: url(image/horizontal-rule.png);
 }
 
