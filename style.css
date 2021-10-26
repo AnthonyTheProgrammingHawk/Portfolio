@@ -403,7 +403,7 @@ hr{
     margin-bottom: 20px;
     background-size: contain;
     background-repeat: no-repeat;
-    backgrounnd-position: center;
+    background-position: center;
     background-image: url(image/horizontal-rule.png);
 }
 
